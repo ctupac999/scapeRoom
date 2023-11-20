@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+}
+
+header {
+    width: 100vw;
+    height: 15vh;
+}
+
+nav {
+    height: 7.5vh;
+    width: 100vw;
+    align-content: center;
+}
+
+main {
+    height: 90vh;
+}
+
+ul {
+    display: flex;
+    width: 100vw;
+    list-style: none;
+    height: 7.5vh;
+}
+
+#firstHeaderBoxleft {
+    height: 7.5vh;
+    display: flex;
+    width: 60vw;
+    gap: 10px;
+    align-items: center;
+}
+
+#firstHeaderBoxleftIcon {
+    background-image: url(assets/black-heart.png);
+    background-size: cover;
+    width: 40px;
+    height: 30px;
+}
+
+#firstHeaderBoxright {
+    display: flex;
+    width: 40vw;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#secondHeader {
+    height: 7.5vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+
+}
+
+#secondHeaderIcon {
+    background-image: url(assets/npm-logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100px;
+    height: 30px;
+}
+
+#site-search {
+    width: 70vw;
+}
+
+button {
+    width: 60px;
+    height: 20px;
+    border-radius: 0%;
+    box-shadow: none;
+    background-color: white;
+}
