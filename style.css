@@ -10,13 +10,13 @@ body {
 }
 
 header {
-    width: 100vw;
+    width: 95vw;
     height: 15vh;
 }
 
 ul {
     display: flex;
-    width: 100vw;
+    width: 95vw;
     list-style: none;
     height: 7.5vh;
 }
@@ -32,7 +32,7 @@ ul {
 #firstHeaderBoxleftIcon {
     background-image: url(assets/black-heart.png);
     background-size: cover;
-    width: 40px;
+    width: 50px;
     height: 30px;
 }
 
@@ -45,7 +45,7 @@ ul {
 
 #secondHeader {
     height: 7.5vh;
-    width: 100vw;
+    width: 95vw;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -64,14 +64,23 @@ ul {
 
 #site-search {
     width: 70vw;
+    height: 30px;
+    background-color: #f2f2f2;
+    border: 0;
 }
 
 button {
     width: 60px;
-    height: 20px;
+    height: 30px;
     border-radius: 0%;
-    box-shadow: none;
     background-color: white;
+    border: 0;
+    font-size: 15px;
+}
+
+.buttonRed {
+    background-color: red;
+    color: white;
 }
 
 main {
