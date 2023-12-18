@@ -1,3 +1,4 @@
 # scapeRoom
 Mi primer repositorio GIT
-## Las instrucciones no entiendo que poner aquí, creo que no hay indicaciones del Readmi, pero sé utilizarlo y ponerle imagenes
+
+Este repositorio contiene en la rama Master in index.html y un css.html del ejercicio LostInWeb
